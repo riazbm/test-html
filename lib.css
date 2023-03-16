@@ -1,0 +1,134 @@
+ h1 {
+     font-family: cursive;
+     font-weight: bolder;
+     font-size: large;
+     margin: auto;
+     padding: 0.2em;
+ }
+ 
+ nav {
+     display: flex;
+     flex-direction: row;
+     font-size: larger;
+     font-weight: 500;
+     font-family: Arial, Helvetica, sans-serif;
+     flex-wrap: wrap-reverse;
+ }
+ 
+ .border {
+     border-color: black;
+     border-style: solid;
+ }
+ 
+ .menu {
+     display: flex;
+     text-align: right;
+     text-shadow: 2cqmax;
+ }
+ 
+ .main {
+     column-gap: 2em;
+     column-rule: thin dotted #999;
+     column-width: 12em;
+ }
+ 
+ footer {
+     display: block;
+     text-align: center;
+     padding: 3px;
+     background-color: darksalmon;
+     color: #999;
+ }
+ 
+ body {
+     height: 125vh;
+     margin-top: 80px;
+     padding: 30px;
+     background-size: cover;
+     font-family: sans-serif;
+     color: red;
+ }
+ 
+ header {
+     background-color: orange;
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 5px;
+     height: 30px;
+     display: flex;
+     align-items: center;
+     box-shadow: 0 0 25px 0 black;
+     padding: 0.5px;
+ }
+ 
+ header * {
+     display: inline;
+ }
+ 
+ header li {
+     margin: 20px;
+ }
+ 
+ header li a {
+     color: blue;
+     text-decoration: none;
+ }
+ 
+ .fa {
+     padding: 20px;
+     text-align: center;
+     margin: 5px 2px;
+     font-size: 30px;
+     width: 50px;
+ }
+ 
+ .fa-facebook {
+     background: #3B5998;
+     color: white;
+ }
+ 
+ .fa-twitter {
+     background: #55ACEE;
+     color: white;
+ }
+ 
+ .fa-pinterest {
+     background: #cb2027;
+     color: white;
+ }
+ 
+ .fa-linkedin {
+     background: #007bb5;
+     color: white;
+ }
+ 
+ .fa-instagram {
+     background: #125688;
+     color: white;
+ }
+ 
+ .fa-youtube {
+     background: #bb0000;
+     color: white;
+ }
+ 
+ .fa-google {
+     background: #dd4b39;
+     color: white;
+ }
+ 
+ .fa-snapchat-ghost {
+     background: #fffc00;
+     color: white;
+     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ }
+ 
+ .fa-skype {
+     background: #00aff0;
+     color: white;
+ }
+ 
+ .fa:hover {
+     opacity: 0.9;
+ }

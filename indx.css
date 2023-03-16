@@ -1,0 +1,23 @@
+#header {
+    background-position: 0 top;
+    background-repeat: repeat-x;
+    background-image: url(../img/buntingSlice3Invert.png);
+    margin-right: 1.0416667%;
+    /* 10 ÷ 960 */
+    margin-left: 1.0416667%;
+    /* 10 ÷ 960 */
+    width: 97.9166667%;
+    /* 940 ÷ 960 */
+}
+
+To become : header {
+    background-position: 0 top;
+    background-repeat: repeat-x;
+    background-image: url(../img/buntingSlice3Invert.png);
+    margin-right: 1.0416667%;
+    /* 10 ÷ 960 */
+    margin-left: 1.0416667%;
+    /* 10 ÷ 960 */
+    width: 97.9166667%;
+    /* 940 ÷ 960 */
+}
